@@ -3,7 +3,7 @@
 name: CI-CD-Pipeline-to-AWS-FlasticBeanstalk
 env:
   EB_PACKAGE_S3_BUCKET_NAME: "adv-it-flack-application-packages"
-  EB_APPLICATION_NAME      : "Myflack"
+  EB_APPLICATION_NAME      : "MyFlask"
   EB_ENVIRONMENT_NAME      : "Myflask-env"
   DEPLOY_PACKAGE_NAME      : "flack_app_${{ github.sha }}.zip"
   AWS_REGION_NAME          : "eu-north-1"
